@@ -1,5 +1,6 @@
 public class Main{
     public static void main(String[] args){
+        /*
         try{
             String str = null;
             System.out.println(str.length());
@@ -8,5 +9,9 @@ public class Main{
             System.out.println("error: NullPointerExceptionです");
             System.out.println(e.getMessage());
         }
+        */
+
+        String str = "百二十三";
+        Integer.parseInt(str);
     }
 }
